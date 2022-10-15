@@ -1,0 +1,39 @@
+$black:    #000;
+@import "../bootstrap/scss/bootstrap";
+
+
+$custom_nav_bg : #C2F6EA;
+
+
+/* custom css */
+
+header{
+    margin: auto;
+    width: 1200px;
+}
+
+#social_icons{
+    li{
+        a{
+            color: $black;
+        }
+        
+    }
+}
+.menu{
+    background-color: $custom_nav_bg;
+    #custom_nav{
+        margin: auto;
+        width: 1200px;
+    }
+}
+.slider{
+    background-image: url("./imgs/header.jpg");
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+
